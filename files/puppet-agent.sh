@@ -17,6 +17,6 @@ if [[ `system_profiler SPHardwareDataType | grep VMware` || `system_profiler SPH
 		/usr/sbin/scutil --set ComputerName "cfa-$serial-m"
 
 		
-		/opt/puppetlabs/bin/puppet config set --server cfaserv.astate.edu 
-		/opt/puppetlabs/bin/puppet config set --environment class 
+		/opt/puppetlabs/bin/puppet config set --server cfaserv.astate.edu --section agent
+		/opt/puppetlabs/bin/puppet config set --environment class --section agent
 		/opt/puppetlabs/bin/puppet agent -t --waitforcert 60 >> /var/log/puppetagent.log
