@@ -1,3 +1,3 @@
 #!/bin/sh
 
-osascript -e 'tell application "Terminal" to do script "/usr/local/VectorworksNetworkLicense/rlm"'
+osascript -e 'do shell script "open -a Terminal /usr/local/run_rlm.command"'
