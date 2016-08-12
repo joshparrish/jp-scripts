@@ -12,4 +12,4 @@ $DOCKUTIL --add '/Applications/Microsoft Excel.app' --no-restart
 $DOCKUTIL --add '/Applications/Microsoft PowerPoint.app' --no-restart
 $DOCKUTIL --add '/Applications/DVD Player.app' --no-restart
 $DOCKUTIL --add '~/Documents' --no-restart
-$DOCKUTIL --add '~/Downloads' --no-restart
+$DOCKUTIL --add '~/Downloads'
