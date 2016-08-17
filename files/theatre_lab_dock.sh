@@ -2,6 +2,7 @@
 DOCKUTIL=/usr/local/bin/dockutil
 
 $DOCKUTIL --remove all --no-restart
+sleep 2
 $DOCKUTIL --add '/Applications/Google Chrome.app' --no-restart
 $DOCKUTIL --add '/Applications/Safari.app' --no-restart
 $DOCKUTIL --add '/Applications/Adobe Photoshop CC 2015.5/Adobe Photoshop CC 2015.5.app' --no-restart
