@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 DOCKUTIL=/usr/local/bin/dockutil
 
 $DOCKUTIL --remove all --no-restart
