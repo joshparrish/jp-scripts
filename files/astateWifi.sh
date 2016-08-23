@@ -1,3 +1,3 @@
 #!/bin/bash
 
-networksetup -setairportnetwork en0 AstateGuest WoLfguest1!
+networksetup -setairportnetwork en1 AstateGuest WoLfguest1!
